@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>AirBnB Analysis</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <!-- Leaflet CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.0-rc.3/dist/leaflet.css">
+  <script src="https://cdn.jsdelivr.net/npm/alasql@0.4"></script>
+  <!-- Our CSS -->
+  <link rel="stylesheet" type="text/css" href="static/css/style.css">
+</head>
+<body>
+  <div class = 'container'>
+      <div class = "row">  
+        <div class = 'col-md-3 jumbotron text-left'>
+          <h4>Filter you Search</h4><br>
+          <h5>Neighbourhood Group</h5>
+          <select id="selNeighbourhoodGroup"><option>All</option></select>      
+          <h5>Neighbourhood</h5>
+          <select id="selNeighbourhood"><option>All</option></select>       
+          <h5>Room Type</h5>
+          <select id="selRoomType"><option>All</option></select>      
+          <!-- <button id="filter-btn" type="button" class="btn btn-default">Filter Data</button> -->
+        </div>
+        <div class = 'col-md-5'>
+          <div id="pie-id"></div>
+        </div>
+        <div class = 'col-md-4'>
+          <div id="bar-id"></div>
+        </div>
+        <div class = 'col-md-12'>
+          <div id="hbar-id"></div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+      <!-- The div that holds our map -->
+  <div id="map-id"></div>
+  
+  <!-- D3 -->
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.5.0/d3.min.js"></script>  
+  <!-- Leaflet JavaScript -->
+  <script src="https://unpkg.com/leaflet@1.0.0-rc.3/dist/leaflet.js"></script>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <!-- API Key -->
+  <script type="text/javascript" src="static/js/config.js"></script>
+  <!-- Our JavaScript -->
+  <script type="text/javascript" src="static/js/populateFilters.js"></script>
+  <script type="text/javascript" src="static/js/plotGraphs_Map.js"></script>
+</body>
+''
+</html>
