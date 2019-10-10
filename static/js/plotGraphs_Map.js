@@ -1,6 +1,6 @@
 //url = "http://127.0.0.1:5000/data"
 
-url = "https://shresthaachyut.github.io/Project2/airbnb3.json";
+url = "https://shresthaachyut.github.io/Project2/airbnb2.json";
 var filterButton = d3.select("#filter-btn");
 var airbnbData ;
 var alreadyExits = 0;
