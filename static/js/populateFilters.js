@@ -1,4 +1,4 @@
-var url = "https://shresthaachyut.github.io/Project2/airbnb.json"
+var url = "https://shresthaachyut.github.io/Project2/airbnb3.json"
 
 var neighbourhood_Grp = [];
 var neighbourhood = [];
